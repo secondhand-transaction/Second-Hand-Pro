@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fill_ipt{
+	position: relative;
+	margin: auto;
+	text-align:center;
+}
+.showbig{
+	display: block;
+	width: 400px;
+	height: 40px;
+	border: 1px solid #404040;
+	display: block;
+	
+	
+	outline: none;
+	
+	text-indent: 20px;
+}
+.bigtx{
+	height: 30px;
+	min-width:10px;
+	line-height: 30px;
+	padding: 0px 8px;
+	border: 1px solid #C9CFDA;
+	background: #f5f7fc;
+	box-shadow: 5px 5px 10px rgba(120,144,156,0.2);
+	position: absolute;
+	margin:auto;
+	left: 0;
+	top: -0px;
+	font-size: 24px;
+	color: #1c2b36;
+	line-height: normal;
+	/*display: none;*/
+	opacity: 0;
+	transition: all 0.2s;
+}
+.bigtx span{
+	font-size: 24px;
+	color: #1c2b36;
+}

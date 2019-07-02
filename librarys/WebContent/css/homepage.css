@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+.bodylibrary{
+	margin: 0 auto;
+	width:72%;
+	height:2600px;
+	background-color: #FFFFFF
+}
+.allpage
+{
+	margin: 0 auto;
+	width:98%;
+	height:2500px;
+	background-color: #FFFFFF;
+	border:1px solid red;
+	position:relative;
+	top:10px;
+}
+.headpage{
+	margin: 0 auto;
+	width:94%;
+	height:140px;
+	position: relative;
+	top:20px;
+	
+}
+.booklibrarian
+{
+	width:25%;
+	height:140px;
+	float:left;
+	position:relative;
+	left:10px;
+}
+.picturepage{
+	width:45%;
+	height:140px;
+	float:left;
+	border:1px solid red;
+	position:relative;
+	left:20px;
+	
+}
+.sumpage{
+	width:25%;
+	height:140px;
+	float:left;
+	border:1px solid red;
+    position:relative;
+
+	left:30px;
+}
+.part
+{
+	margin:2px 0
+}
+.cardOuter {
+    width: 280px;
+    height: 30px;
+    border-radius:10px;
+	position:relative;
+    left:20px
+	
+}
+.cardtext{
+			width:99%;
+			height:100px;
+			
+		    position:relative;
+			top:20px;
+			
+		}
+.cardtext2{
+			width:100%;
+			height:125px;
+		   position:relative;
+
+		   top:10px;
+		    background-color:#F5F5F5
+		}
+.tablebook
+{
+	border:2px solid #000000;
+	width:80%;
+	align:center; 
+	cellpadding:0 ;
+	cellspacing:0  ;
+	onmouseover:"this.style.backgroundColor='#ffff66';" ;
+	onmouseout:"this.style.backgroundColor='white';";
+}
+.selectbook
+{
+	width:100%;
+	height:40px;
+
+	position:relative;
+	top:40px;
+}

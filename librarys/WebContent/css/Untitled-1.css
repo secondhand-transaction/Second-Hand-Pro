@@ -1,0 +1,190 @@
+.container {
+	width: 1100px;
+	height: 550px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.container img {
+	position: absolute;
+	padding: 10px 10px 15px;
+	background: #fff;
+	border: none;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+	z-index: 1;
+}
+
+.container img:hover {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-box-shadow: 5px 5px 5px #ddd;
+	-moz-box-shadow: 5px 5px 5px #ddd;
+	box-shadow: 5px 5px 5px #ddd;
+	z-index: 2;
+	cursor: pointer;
+}
+
+a
+.pic1 {
+	top: 0px;
+	left: 400px;
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+}
+
+/*剃头*/
+
+/*借阅*/
+.daxiao {
+	width: 1300px;
+	height: 500px;
+	margin: 10px 10px 10px 10px;
+	position: absolute;
+	top: 130px;
+	left: 80px;
+}
+
+.img {
+	width: 200px;
+	height: 250px;
+	padding: 10px 0 0 10px;
+}
+
+.table {
+	position: absolute;
+	margin: -240px 0 0 220px;
+	font-size: 20px;
+	cellspacing: 10px;
+}
+
+.p {
+	position: absolute;
+	margin: 270px 0 0 -200px;
+	font-size: 25px;
+}
+
+.bo {
+	width: 1100px;
+	height: 190px;
+	position: absolute;
+	top: 305px;
+	left: 8px;
+}
+
+.ziti {
+	font-size: 20px
+}
+
+.button {
+	width: 35px;
+	height: 30px;
+	position: absolute;
+	padding: 0px 15px;
+	left: -25px;
+	top: 400px;
+}
+
+.suoyixinxi {
+	width: 1300px;
+	height: 500px;
+	margin: 10px 10px 10px 10px;
+	position: absolute;
+	top: 650px;
+	left: 80px;
+}
+
+.biaotou {
+	background-color: #DEDEDE;
+}
+
+.ui{
+	width:1300px;
+	height:50px;
+	list-style: none;
+	margin:0;
+	padding:0;
+
+} */
+.box {
+	width: 1300px;
+	height: 300px;
+	clear: both;
+}
+
+#box1 {
+	
+}
+
+#box2 {
+	display: none;
+}
+
+.btn1 {
+	display: block;
+}
+
+.btn2 {
+	display: block;
+}
+
+.pager {
+	top: 600x;
+	padding-left: 0;
+	margin: 20px 0;
+	text-align: center;
+	list-style: none
+}
+
+.pager li {
+	display: inline;
+}
+
+.pager li>a, .pager li>span {
+	display: inline-block;
+	padding: 5px 14px;
+	background-color: grey;
+	color:black;
+	border: 1px solid #ddd;
+	border-radius: 15px
+}
+
+.pager li>a:focus, .pager li>a:hover {
+	text-decoration: none;
+	background-color: #eee
+}
+
+.pager .next>a, .pager .next>span {
+	float: right
+}
+
+.pager .previous>a, .pager .previous>span {
+	float: left
+}
+
+.pager .disabled>a, .pager .disabled>a:focus, .pager .disabled>a:hover,
+	.pager .disabled>span {
+	color: #777;
+	cursor: not-allowed;
+	background-color: #fff
+}
+
+.href {
+	text-decoration: none;
+	color: black;
+}
+.di{
+	width: 1300px;
+	height: 500px;
+	margin: 10px 10px 10px 10px;
+	position: absolute;
+	top: 800px;
+	left: 80px;
+}
